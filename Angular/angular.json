@@ -19,14 +19,42 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": false,
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+
+              "src/Template/fonts/icomoon/style.css",
+
+              "src/Template/css/bootstrap.min.css",
+              "src/Template/css/magnific-popup.css",
+              "src/Template/css/jquery-ui.css",
+              "src/Template/css/owl.carousel.min.css",
+              "src/Template/css/owl.theme.default.min.css",
+              "src/Template/css/bootstrap-datepicker.css",
+              "src/Template/css/animate.css",
+
+              "src/Template/fonts/flaticon/font/flaticon.css",
+
+              "src/Template/css/aos.css",
+
+              "src/Template/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/Template/js/add.js",
+              "src/Template/js/jquery-3.3.1.min.js",
+              "src/Template/js/jquery-migrate-3.0.1.min.js",
+              "src/Template/js/jquery-ui.js",
+              "src/Template/js/popper.min.js",
+              "src/Template/js/bootstrap.min.js",
+              "src/Template/js/owl.carousel.min.js",
+              "src/Template/js/jquery.stellar.min.js",
+              "src/Template/js/jquery.countdown.min.js",
+              "src/Template/js/jquery.magnific-popup.min.js",
+              "src/Template/js/bootstrap-datepicker.min.js",
+              "src/Template/js/aos.js",
+              "src/Template/js/mediaelement-and-player.min.js",
+              "src/Template/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -84,13 +112,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         },
@@ -102,9 +125,7 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -120,6 +141,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Angular"
 }
